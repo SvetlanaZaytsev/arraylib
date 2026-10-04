@@ -39,4 +39,7 @@ if(BUILD_TESTING)
     add_executable(test_integration tests/test_integration.cpp)
     target_link_libraries(test_integration PRIVATE arraylib)
     add_test(NAME IntegrationTests COMMAND test_integration)
+    add_executable(variant8 examples/variant_08.cpp)
+    target_link_libraries(variant8 PRIVATE arraylib)
+
 endif()

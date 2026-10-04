@@ -30,6 +30,7 @@
 /home/svetlanazay/arraylib/build/CMakeFiles/ContinuousSubmit.dir
 /home/svetlanazay/arraylib/build/CMakeFiles/test_unit.dir
 /home/svetlanazay/arraylib/build/CMakeFiles/test_integration.dir
+/home/svetlanazay/arraylib/build/CMakeFiles/variant8.dir
 /home/svetlanazay/arraylib/build/CMakeFiles/test.dir
 /home/svetlanazay/arraylib/build/CMakeFiles/edit_cache.dir
 /home/svetlanazay/arraylib/build/CMakeFiles/rebuild_cache.dir

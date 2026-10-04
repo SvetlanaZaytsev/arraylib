@@ -542,6 +542,43 @@ test_integration/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_integration.dir/build.make CMakeFiles/test_integration.dir/build
 .PHONY : test_integration/fast
 
+#=============================================================================
+# Target rules for targets named variant8
+
+# Build rule for target.
+variant8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 variant8
+.PHONY : variant8
+
+# fast build rule for target.
+variant8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variant8.dir/build.make CMakeFiles/variant8.dir/build
+.PHONY : variant8/fast
+
+examples/variant_08.o: examples/variant_08.cpp.o
+.PHONY : examples/variant_08.o
+
+# target to build an object file
+examples/variant_08.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variant8.dir/build.make CMakeFiles/variant8.dir/examples/variant_08.cpp.o
+.PHONY : examples/variant_08.cpp.o
+
+examples/variant_08.i: examples/variant_08.cpp.i
+.PHONY : examples/variant_08.i
+
+# target to preprocess a source file
+examples/variant_08.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variant8.dir/build.make CMakeFiles/variant8.dir/examples/variant_08.cpp.i
+.PHONY : examples/variant_08.cpp.i
+
+examples/variant_08.s: examples/variant_08.cpp.s
+.PHONY : examples/variant_08.s
+
+# target to generate assembly for a file
+examples/variant_08.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variant8.dir/build.make CMakeFiles/variant8.dir/examples/variant_08.cpp.s
+.PHONY : examples/variant_08.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -679,6 +716,10 @@ help:
 	@echo "... arraylib"
 	@echo "... test_integration"
 	@echo "... test_unit"
+	@echo "... variant8"
+	@echo "... examples/variant_08.o"
+	@echo "... examples/variant_08.i"
+	@echo "... examples/variant_08.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
