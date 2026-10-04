@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/test_unit.dir/link.d CMakeFiles/test_unit.dir/tests/test_unit.cpp.o -o test_unit  -Wl,-rpath,/home/svetlanazay/arraylib/build libarraylib.so

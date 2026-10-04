@@ -1,0 +1,35 @@
+Start testing: Oct 04 14:50 MSK
+----------------------------------------------------------
+1/2 Testing: UnitTests
+1/2 Test: UnitTests
+Command: "/home/svetlanazay/arraylib/build/test_unit"
+Directory: /home/svetlanazay/arraylib/build
+"UnitTests" start time: Oct 04 14:50 MSK
+Output:
+----------------------------------------------------------
+[unit] All tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTests" end time: Oct 04 14:50 MSK
+"UnitTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: IntegrationTests
+2/2 Test: IntegrationTests
+Command: "/home/svetlanazay/arraylib/build/test_integration"
+Directory: /home/svetlanazay/arraylib/build
+"IntegrationTests" start time: Oct 04 14:50 MSK
+Output:
+----------------------------------------------------------
+[integration] All tests passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"IntegrationTests" end time: Oct 04 14:50 MSK
+"IntegrationTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 04 14:50 MSK
